@@ -9,7 +9,6 @@
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
 }
 
@@ -23,4 +22,22 @@
   background-color: white;
   height: 70px;
   width: 70px;
+}
+
+table {
+  height: 456px;
+  width: 800px;
+}
+
+table td {
+  border: solid 0px;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: red;
+}
+
+tr:nth-child(even) {
+  background-color: white;
 }
